@@ -1,0 +1,267 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansationlight/sansationlight.woff);
+ }
+ 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: myFirstFont;
+  
+}
+
+
+html,body{
+ width: 100%;
+}
+
+.row1{
+    background-image: url(img/spot-bg-01.jpg);
+    background-size: cover;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
+
+}
+
+.general{
+
+    height: 750px;
+}
+
+.row3{
+    background-image: url(img/spot-bg-02.jpg);
+    background-size: cover;
+    clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
+}
+
+.new-spot{
+  background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 6%;
+    margin-left: 12%;
+    position: absolute;
+   
+}
+
+.text{
+    display: inline-block;
+    width: 75%;
+ padding-top: 100px;
+ padding-left: 70px;
+ position: absolute;
+ 
+}
+
+header{
+    color: #e6005c;
+font-size: 2.7em;
+font-weight: bold;
+text-align: center;
+
+
+}
+
+h3{
+    color: #00aaff;
+    text-align: center;
+padding: 25px;
+font-size: larger;
+}
+
+p{
+    font-size: 1em;
+    line-height: 2;
+}
+
+ a{
+    text-decoration: none;
+    border:1px  solid #00aaff;
+    background-color: #00aaff;
+    color: white;
+    padding: 10px 25px 10px 25px;
+
+    border-radius: 7%;
+    
+}
+
+.row2{
+    height: 600px;
+}
+
+
+.row2-content{
+  width: 50%;
+    display: inline-block;
+    
+   float: right;
+   
+}
+
+
+.row2-content img{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+   float: left;
+margin:6% 5%;
+
+    
+}
+
+.text-row2{
+    width: 70%;
+margin-left: 24%;
+margin-top: 5%;
+}
+h1{
+    font-size: 1.5em;
+    color: #00aaff;
+    
+padding: 25px;
+padding-left: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li{
+    line-height: 2;
+}
+
+.row4{
+    height: 550px;
+}
+
+.row4 img{
+    margin-top: auto;
+}
+
+form{
+    display: inline-block;
+    margin-left: 24%;
+    margin-top: 15%;
+    
+}
+
+
+input{
+    display: block;
+ width: 165%;
+ padding: 8px;
+ border: none;
+ border-bottom: 2px solid #e6005c;
+font-size: 1em;
+}
+
+textarea{
+    padding: 8px;
+    display: block;
+    padding-top: 20px;
+    border: none;
+    border-bottom: 2px solid #e6005c;  
+   width: 165%;
+   font-size: 1em;
+}
+
+button{
+    text-decoration: none;
+    border:1px  solid #e6005c;
+    background-color: #e6005c;
+    color: white;
+    padding: 10px 25px 10px 25px;
+ border-radius: 7%;
+ float: right;
+ margin-top: 20px;
+ margin-right: -65%;
+}
+
+
+.copy{
+   
+   display: inline-block;
+   width: 50%;
+   margin-left: 12%;
+}
+
+span{
+    size: 13px;
+}
+
+
+@media only screen and (max-width: 1024px){
+
+    .new-spot{
+        margin-left: 25%;   
+    }
+
+    
+.row2-content{
+ 
+      display: block;
+      
+    width: 100%;
+  }
+
+  .general{
+      height: 1000px;
+  }
+
+  .row1 , .row3{
+    height: 680px;
+    }
+  .row2-img{
+      width: 100%;
+       
+  }
+  .row2-img img{
+    
+  margin-left: 25%;
+  }
+
+  
+input{
+   
+ width: 250%;
+}
+
+textarea{
+ 
+   width:250%;
+}
+
+.copy{
+margin-left: 0;
+width: 100%;
+text-align: center;
+}
+
+
+
+
+.row2-content img{
+   
+   
+   float: none;
+
+text-align: center;
+margin-left: 25%;
+    margin-top: 40px;
+}
+
+}
+
+
+@media only screen and (max-width: 660px){
+
+.new-spot{
+  
+      border-radius: 10%;
+     margin: 10%;
+  }
+
+}
